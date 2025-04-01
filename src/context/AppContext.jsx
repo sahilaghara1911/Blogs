@@ -39,7 +39,7 @@ function AppContextProvider({children}) {
     }
 
     const value = {
-        posts,setPage,loading,setLoading,page,setPage,totalPages,setTotalPages,setPosts,fetchBlogPosts
+        posts,setPage,loading,setLoading,page,setPage,totalPages,setTotalPages,setPosts,fetchBlogPosts,handelPageChange
     }
 
     return <AppContext.Provider value={value}>
